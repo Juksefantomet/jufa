@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallBionicEye</defName>
+    <label>install jufa orb</label>
+    <description>Install a jufa orb.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JufaOrbEye</ThingDef>
+      <HediffDef>JufaOrbEye</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing jufa orb.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JufaOrbEye</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JufaOrbEye</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JufaOrbEye</addsHediff>
+  </RecipeDef>
+  
+</Defs>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Jufa</name>
+  <author>Juksefantomet</author>
+  <url>http://www.google.com</url>
+  <supportedVersions>
+	<li>1.2</li>
+  </supportedVersions>
+  <description>Jufa - Implants and other enhancements.</description>
+  <packageId>Juksefantomet.Jufa.Tech</packageId>
+</ModMetaData>

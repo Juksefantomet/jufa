@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>JufaOrbEye</defName>
+    <label>jufa orb</label>
+    <description>An advanced artifical eye. Nobody claimed creative rights and nobody ever will.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <Plasteel>1</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <Mass>0.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+</Defs>

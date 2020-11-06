@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<TraitDef>
+    <defName>Jufian</defName>
+		<allowOnHostileSpawn>false</allowOnHostileSpawn>
+	<commonality>2</commonality>
+    <degreeDatas>
+      <li>
+        <label>jufian</label>
+        <description>{PAWN_nameDef} was born with empowering abilities! Even as a child this was obvious!.</description>
+        <statOffsets>
+          <PainShockThreshold>1.5</PainShockThreshold>
+		  <MeleeDodgeChance>1.5</MeleeDodgeChance>
+		  <GlobalLearningFactor>1.5</GlobalLearningFactor>
+        </statOffsets>
+			<marketValueFactorOffset>15</marketValueFactorOffset>
+	  </li>
+    </degreeDatas>
+  </TraitDef>
+
+</Defs>

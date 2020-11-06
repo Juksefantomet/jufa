@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JufaOrbEye</defName>
+    <label>jufa orb</label>
+    <labelNoun>a jufa orb</labelNoun>
+    <description>Simply Jufa.</description>
+    <descriptionHyperlinks><ThingDef>JufaOrbEye</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JufaOrbEye</spawnThingOnRemoved>
+	<stages>
+		<li>
+		  <!-- <painFactor>0.1</painFactor> -->
+		  <painFactor>-0.9</painFactor>
+		  <socialFightChanceFactor>-1</socialFightChanceFactor>
+		  <hungerRateFactorOffset>-0.9</hungerRateFactorOffset>
+		  <capMods>
+			<li>
+			  <capacity>Consciousness</capacity>
+			  <offset>1.50</offset>
+			</li>
+			<li>
+			  <capacity>Sight</capacity>
+			  <offset>1.50</offset>
+			</li>
+			<li>
+            <capacity>Manipulation</capacity>
+            <offset>1.50</offset>
+          </li>
+			<li>
+			  <capacity>Moving</capacity>
+			  <offset>3.50</offset>
+			</li>
+		  </capMods>
+		</li>
+	</stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>2.50</partEfficiency> 
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  
+</Defs>
